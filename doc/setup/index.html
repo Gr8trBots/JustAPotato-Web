@@ -14,7 +14,33 @@
         <h1>Documentation</h1>
         <br>
         <ul>
-
+            <li><b>How to run your own Instance of JustAPotato</b></li>
+            <br>
+            <li><b>Don't forget to read the LICENSE file supplied with the repo!</b></li>
+            <br>
+            <li id="1">1. Clone/DL the GitHub repo</li>
+            <li>Visit the repo <a href="https://github.com/discordies/JustAPotato">here</a> and click the green "Clone or download" button and either clone it or download it (downloading is better)</li>
+            <br>
+            <li id="2">2. Unzip the archive</li>
+            <li>Use a tool as WinRar or 7Zip</li>
+            <br>
+            <li id="3">3. Install NodeJS</li>
+            <li>I have <a href="https://nodejs.org/dist/v8.11.4/node-v8.11.4-x64.msi">8.x</a></li>
+            <br>
+            <li id="4">4. Open command line and enter <code>npm install</code></li>
+            <li>This should install all packages listed in package and/or package-lock.json and will create a folder named <i>node_modules</i></li>
+            <br>
+            <li id="5">5. Open botconfig.json</li>
+            <li>Here you will change the <i>prefix</i> and <i>token</i> to your token (unless you are going to make your code public! You should <b>never</b> share your token with anyone!</li>
+            <li><i>Note: I have my bot hosted on Heroku (as of now) and so, I have instead of referencing botconfig.token, I put there process.env.BOT_TKN, so no one can see the token! If you are going to use the bot token from config, change <code>process.env.BOT_TKN</code> to <code>botconfig.token</code></i></li>
+            <br>
+            <li id="6">6. Do any changes to the code you want</li>
+            <li>Add, remove or edit. Some commands and things in index.js should be edited</li>
+            <br>
+            <li id="7">7. Go to command line and type <code>node index.js</code></li>
+            <li>This <i>should</i> start your bot, and you should see it online!</li>
+            <br>
+            <li>And that's it!</li>
         </ul>
         <br>
         <h4>Missing something? <a href="https://github.com/discordies/JustAPotato-web/issues">Open an issue</a></h4>
