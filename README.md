@@ -1,1 +1,1 @@
-# JustAPotato-Web
+This is a website for JustAPotato
